@@ -1,0 +1,1103 @@
+fileFormatVersion: 2
+guid: 49dcffe7731011841b542a81c78e23f4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: "Leon\u2019s Room"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6604
+      y: 7656
+      width: 509
+      height: 63
+    spriteID: b46ab701d643c5b44be32260cb874dbd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4131, y: 3686}
+  - name: "<\u77E9\u5F62>"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4867
+      y: 7730
+      width: 876
+      height: 238
+    spriteID: 443236673f124644ca4e6a42dd72b09e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2579, y: 3851}
+  - name: Leon's bed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3092
+      y: 6841
+      width: 1767
+      height: 1272
+    spriteID: 43fe81cd4de90944483da509ff114d68
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2546, y: 4428}
+  - name: Leon's door lock
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 16167
+      width: 128
+      height: 195
+    spriteID: 6f840b0338ba0e447a024fddcc315d9a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -5415, y: 13218}
+  - name: Leon's door key
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6179
+      y: 7614
+      width: 248
+      height: 106
+    spriteID: aa83c1ae268b8cc4fb5e8a56bba96dfa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5000, y: 5181}
+  - name: birdcage
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4867
+      y: 6841
+      width: 824
+      height: 881
+    spriteID: 3eb01e632ed8e654bb08f080babb9766
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1496, y: 4434}
+  - name: Hallway 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5335
+      y: 7976
+      width: 401
+      height: 82
+    spriteID: c554813301cafec48983ebadff29388c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1846, y: 3931}
+  - name: "<\u77E9\u5F62>_1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7254
+      y: 6841
+      width: 877
+      height: 239
+    spriteID: ddd8039ce9f863a4bb3d32b9bee2a997
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 308, y: 2871}
+  - name: Maid's room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 893
+      y: 8682
+      width: 888
+      height: 1495
+    spriteID: f803e02c36971044a9c3991439f27ea9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -5574, y: 6253}
+  - name: Storage room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8013
+      y: 4587
+      width: 134
+      height: 1475
+    spriteID: 55239c3f003cc184b91542e62913aa46
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 146, y: 2158}
+  - name: "Lily\u2019s Room"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4867
+      y: 7976
+      width: 460
+      height: 82
+    spriteID: 57d4a776faabb404f8853bb5d82ca881
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3053, y: 6260}
+  - name: "<\u77E9\u5F62>_2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7145
+      y: 7201
+      width: 877
+      height: 239
+    spriteID: 8288955c30ebb534d97692d21fdb9bd6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5516, y: 5560}
+  - name: Lily's door lock
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8030
+      y: 7201
+      width: 128
+      height: 196
+    spriteID: 463a10a8bc2511e43b15865f1284e923
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4199, y: 6548}
+  - name: "\u8718\u86DB\u7DB2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6604
+      y: 7201
+      width: 533
+      height: 447
+    spriteID: d7d1ed95cc6bc26449a5e5e6c8722afe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3093, y: 5606}
+  - name: candle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6435
+      y: 7614
+      width: 76
+      height: 93
+    spriteID: 7a98dc177796ef94b8462e61fcd7d3b3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3510, y: 6973}
+  - name: Lily's door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 14314
+      width: 76
+      height: 1155
+    spriteID: 98d5f8c9d41be81488d0cfc1ad31dd80
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3726, y: 13981}
+  - name: Lily's bed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5699
+      y: 6841
+      width: 1547
+      height: 352
+    spriteID: ba8e1528c8d531649a5b0bf8a4231d5e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5282, y: 6583}
+  - name: Lily's table+chair
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5699
+      y: 7201
+      width: 897
+      height: 405
+    spriteID: 6fea1af6a42513746b917fa6959b63a3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3327, y: 6960}
+  - name: Wine cellar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5699
+      y: 7614
+      width: 472
+      height: 65
+    spriteID: 491079c0cd8834d4c9c2addb84d64b5c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -620, y: 5860}
+  - name: "<\u77E9\u5F62>_3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7145
+      y: 7448
+      width: 877
+      height: 238
+    spriteID: 86515372ec6ddd54087c92cbbdb39051
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1008, y: 5786}
+  - name: wine jug
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5751
+      y: 7730
+      width: 534
+      height: 365
+    spriteID: 1200bd485546e064aa5cf6f5b4235996
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1286, y: 7464}
+  - name: wine cabinet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1789
+      y: 8682
+      width: 976
+      height: 1323
+    spriteID: fe4a5b735a87b1c41ac39d6fa5be9b4e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3832, y: 8437}
+  - name: sundries
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6293
+      y: 7730
+      width: 484
+      height: 311
+    spriteID: 954f5d243ef85684d800eeeb00cbcf9b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1305, y: 7473}
+  - name: Platform1 column1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 10571
+      width: 296
+      height: 1881
+    spriteID: 8ed0f3987dc06d547818addd96e9a5a1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8159}
+  - name: Platform1 column+door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8682
+      width: 881
+      height: 1881
+    spriteID: 551f38e110a16ff46ab9350eb6e87ecd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -5369, y: 6270}
+  - name: platform1 floor+ceiling
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2329
+      width: 8001
+      height: 2250
+    spriteID: 43e588e0cf185324895c7e837357d1b7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 79}
+  - name: Platform1 Bg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4587
+      width: 8001
+      height: 2246
+    spriteID: 1886bd3207f9dc04dba0715f49b4d8cb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2335}
+  - name: candle's light (simulate)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6841
+      width: 3080
+      height: 1287
+    spriteID: 0b18918ff56cf3e40856386310ebe7d7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1426, y: 6740}
+  - name: Platform2 wall1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 12460
+      width: 269
+      height: 1846
+    spriteID: b2b1aeb9935f2174eb0281755e2c357c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -4002, y: 12233}
+  - name: Platform2 wall2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 14314
+      width: 200
+      height: 1845
+    spriteID: 4028e9d521eea934382fbf0ec9468ab5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 14074}
+  - name: Platform2 ceiling
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8136
+      width: 8001
+      height: 271
+    spriteID: 7ca1b35d716fd98438966b0b7e2b967f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6118}
+  - name: Platform2 floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8415
+      width: 8001
+      height: 259
+    spriteID: d5a19da7165520f4198b28d2560ba210
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8415}
+  - name: Platform2 Bg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 8001
+      height: 2317
+    spriteID: c1b10e30b5cd9e246b3f540673781b29
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 8001, y: 4500}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 16384
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Leon's room
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+  - name: "Leon\u2019s Room"
+    spriteName: "Leon\u2019s Room"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b46ab701d643c5b44be32260cb874dbd
+    layerID: -517377731
+    mosaicPosition: {x: 6604, y: 7656}
+  - name: "<\u77E9\u5F62>"
+    spriteName: "<\u77E9\u5F62>"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 443236673f124644ca4e6a42dd72b09e
+    layerID: -1729014699
+    mosaicPosition: {x: 4867, y: 7730}
+  - name: Leon's bed
+    spriteName: Leon's bed
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 43fe81cd4de90944483da509ff114d68
+    layerID: 619170219
+    mosaicPosition: {x: 3092, y: 6841}
+  - name: Leon's door lock
+    spriteName: Leon's door lock
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6f840b0338ba0e447a024fddcc315d9a
+    layerID: -1691926771
+    mosaicPosition: {x: 4, y: 16167}
+  - name: Leon's door key
+    spriteName: Leon's door key
+    isGroup: 0
+    parentIndex: -1
+    spriteID: aa83c1ae268b8cc4fb5e8a56bba96dfa
+    layerID: -1377080115
+    mosaicPosition: {x: 6179, y: 7614}
+  - name: birdcage
+    spriteName: birdcage
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3eb01e632ed8e654bb08f080babb9766
+    layerID: -1065212563
+    mosaicPosition: {x: 4867, y: 6841}
+  - name: Hallway 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -428329749
+    mosaicPosition: {x: 0, y: 0}
+  - name: Hallway 1
+    spriteName: Hallway 1
+    isGroup: 0
+    parentIndex: 7
+    spriteID: c554813301cafec48983ebadff29388c
+    layerID: 484117821
+    mosaicPosition: {x: 5335, y: 7976}
+  - name: "<\u77E9\u5F62>"
+    spriteName: "<\u77E9\u5F62>_1"
+    isGroup: 0
+    parentIndex: 7
+    spriteID: ddd8039ce9f863a4bb3d32b9bee2a997
+    layerID: -1814411373
+    mosaicPosition: {x: 7254, y: 6841}
+  - name: Maid's room
+    spriteName: Maid's room
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f803e02c36971044a9c3991439f27ea9
+    layerID: 189054730
+    mosaicPosition: {x: 893, y: 8682}
+  - name: Storage room
+    spriteName: Storage room
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 55239c3f003cc184b91542e62913aa46
+    layerID: 1596441662
+    mosaicPosition: {x: 8013, y: 4587}
+  - name: Lily's room
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -438324505
+    mosaicPosition: {x: 0, y: 0}
+  - name: "Lily\u2019s Room"
+    spriteName: "Lily\u2019s Room"
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 57d4a776faabb404f8853bb5d82ca881
+    layerID: -1955760827
+    mosaicPosition: {x: 4867, y: 7976}
+  - name: "<\u77E9\u5F62>"
+    spriteName: "<\u77E9\u5F62>_2"
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 8288955c30ebb534d97692d21fdb9bd6
+    layerID: 2077271396
+    mosaicPosition: {x: 7145, y: 7201}
+  - name: Lily's door lock
+    spriteName: Lily's door lock
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 463a10a8bc2511e43b15865f1284e923
+    layerID: 1405596477
+    mosaicPosition: {x: 8030, y: 7201}
+  - name: "\u8718\u86DB\u7DB2"
+    spriteName: "\u8718\u86DB\u7DB2"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d7d1ed95cc6bc26449a5e5e6c8722afe
+    layerID: -1402162523
+    mosaicPosition: {x: 6604, y: 7201}
+  - name: candle
+    spriteName: candle
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7a98dc177796ef94b8462e61fcd7d3b3
+    layerID: 1491179453
+    mosaicPosition: {x: 6435, y: 7614}
+  - name: Lily's door
+    spriteName: Lily's door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 98d5f8c9d41be81488d0cfc1ad31dd80
+    layerID: 394837440
+    mosaicPosition: {x: 212, y: 14314}
+  - name: Lily's bed
+    spriteName: Lily's bed
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ba8e1528c8d531649a5b0bf8a4231d5e
+    layerID: -1134258361
+    mosaicPosition: {x: 5699, y: 6841}
+  - name: Lily's table+chair
+    spriteName: Lily's table+chair
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6fea1af6a42513746b917fa6959b63a3
+    layerID: -1448887810
+    mosaicPosition: {x: 5699, y: 7201}
+  - name: Wine cellar
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 1555585130
+    mosaicPosition: {x: 0, y: 0}
+  - name: Wine cellar
+    spriteName: Wine cellar
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 491079c0cd8834d4c9c2addb84d64b5c
+    layerID: 2093449358
+    mosaicPosition: {x: 5699, y: 7614}
+  - name: "<\u77E9\u5F62>"
+    spriteName: "<\u77E9\u5F62>_3"
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 86515372ec6ddd54087c92cbbdb39051
+    layerID: -651611959
+    mosaicPosition: {x: 7145, y: 7448}
+  - name: wine jug
+    spriteName: wine jug
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1200bd485546e064aa5cf6f5b4235996
+    layerID: -930752227
+    mosaicPosition: {x: 5751, y: 7730}
+  - name: wine cabinet
+    spriteName: wine cabinet
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fe4a5b735a87b1c41ac39d6fa5be9b4e
+    layerID: 793043627
+    mosaicPosition: {x: 1789, y: 8682}
+  - name: sundries
+    spriteName: sundries
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 954f5d243ef85684d800eeeb00cbcf9b
+    layerID: 1275668405
+    mosaicPosition: {x: 6293, y: 7730}
+  - name: Platform1 column1
+    spriteName: Platform1 column1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8ed0f3987dc06d547818addd96e9a5a1
+    layerID: 373417049
+    mosaicPosition: {x: 4, y: 10571}
+  - name: Platform1 column+door
+    spriteName: Platform1 column+door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 551f38e110a16ff46ab9350eb6e87ecd
+    layerID: 785593765
+    mosaicPosition: {x: 4, y: 8682}
+  - name: platform1 floor+ceiling
+    spriteName: platform1 floor+ceiling
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 43e588e0cf185324895c7e837357d1b7
+    layerID: -49366690
+    mosaicPosition: {x: 4, y: 2329}
+  - name: Platform1 Bg
+    spriteName: Platform1 Bg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1886bd3207f9dc04dba0715f49b4d8cb
+    layerID: 1418913803
+    mosaicPosition: {x: 4, y: 4587}
+  - name: candle's light (simulate)
+    spriteName: candle's light (simulate)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0b18918ff56cf3e40856386310ebe7d7
+    layerID: -1901939382
+    mosaicPosition: {x: 4, y: 6841}
+  - name: Platform2 wall1
+    spriteName: Platform2 wall1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2b1aeb9935f2174eb0281755e2c357c
+    layerID: -930818542
+    mosaicPosition: {x: 4, y: 12460}
+  - name: Platform2 wall2
+    spriteName: Platform2 wall2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4028e9d521eea934382fbf0ec9468ab5
+    layerID: -930818539
+    mosaicPosition: {x: 4, y: 14314}
+  - name: Platform2 ceiling
+    spriteName: Platform2 ceiling
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7ca1b35d716fd98438966b0b7e2b967f
+    layerID: -713966034
+    mosaicPosition: {x: 4, y: 8136}
+  - name: Platform2 floor
+    spriteName: Platform2 floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d5a19da7165520f4198b28d2560ba210
+    layerID: 379810101
+    mosaicPosition: {x: 4, y: 8415}
+  - name: Platform2 Bg
+    spriteName: Platform2 Bg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c1b10e30b5cd9e246b3f540673781b29
+    layerID: 1418913704
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: scene1_bedrooms Texture
+  prefabAssetName: scene1_bedrooms Prefab
+  spriteLibAssetName: scene1_bedrooms Sprite Lib
+  secondarySpriteTextures: []
