@@ -829,7 +829,7 @@ MonoBehaviour:
     m_Bits: 1
   m_GroundCheck: {fileID: 654254602}
   m_CeilingCheck: {fileID: 1167237780}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 399636988}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -2286,7 +2286,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782283166}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1782283168
 Camera:
   m_ObjectHideFlags: 0
