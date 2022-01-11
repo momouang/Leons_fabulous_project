@@ -44,8 +44,10 @@ public class playerMovement : MonoBehaviour
             if (Input.GetButtonDown("Jump") && Input.GetAxisRaw("Vertical") >= 0f)
             {
                 jump = true;
+                anim.SetBool("isJump", true);
             }
 
+            if (Input.GetKeyDown(KeyCode.E)) GetComponent<playerState>().setIxd();
         }
         
     }
@@ -54,5 +56,10 @@ public class playerMovement : MonoBehaviour
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
+    }
+
+    public void onLanding()
+    {
+        anim.SetBool("isJump", false);
     }
 }
