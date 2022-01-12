@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Events;
 using UnityEngine;
 
 public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnable}
@@ -26,6 +27,8 @@ public class ixdScript : MonoBehaviour
     [Header("Disable Objects")]
     public GameObject[] disObjs;
 
+    [Header("Events")]
+    public UnityEvent InteractionEvents;
 
     private void Start()
     {
