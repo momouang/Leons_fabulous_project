@@ -84,6 +84,10 @@ public class ixdScript : MonoBehaviour
                 gameObject.SetActive(false);
                 break;
 
+            case ixdState.Interactable:
+                InteractionEvents.Invoke();
+                break;
+
             case ixdState.DisableAndEnable:
                 enAndDis();
 
