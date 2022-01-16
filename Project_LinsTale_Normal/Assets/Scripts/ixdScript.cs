@@ -8,13 +8,21 @@ public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnabl
 public class ixdScript : MonoBehaviour
 {
     GameObject player;
-
+    
+    
     [Header("Select Mode")]
     public ixdState interactionMode;
 
+    [Header("Enable/Disable Objects")]
+    [SerializeField]
+    bool CanDisableObjects = true;
+
+    [SerializeField]
+    bool CanEnableObjects = true;
+
     [Header("Teleporter info")]
     public Vector3 tpPosition;
-
+    
     [Header("Item Info")]
     public string itemName;
 
@@ -30,10 +38,6 @@ public class ixdScript : MonoBehaviour
     [Header("Events")]
     public UnityEvent InteractionEvents;
 
-    private void Start()
-    {
-        //Interact();
-    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -60,7 +64,7 @@ public class ixdScript : MonoBehaviour
 
             case ixdState.Item:
                 player.GetComponent<playerState>().giveItem(itemName);
-                disableObjects();
+                //disableObjects();
                 gameObject.SetActive(false);
                 break;
 
@@ -74,6 +78,7 @@ public class ixdScript : MonoBehaviour
                         Debug.Log("You need required keys.");
                         return;
                         //player.GetComponent<playerState>().removeItem(requiredKeys[i]);
+
                         //enAndDis();
                     }
                 }
@@ -93,6 +98,9 @@ public class ixdScript : MonoBehaviour
 
                 break;
         }
+
+        //if (CanDisableObjects) disableObjects();
+        //if (CanEnableObjects) enableObjects();
     }
 
     void enAndDis()

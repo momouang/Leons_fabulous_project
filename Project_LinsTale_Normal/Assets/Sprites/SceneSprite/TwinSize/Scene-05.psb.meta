@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: aa13aac1de3f0f1418b560ce22a4adfb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: 1-cabinet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4279
+      y: 3323
+      width: 779
+      height: 966
+    spriteID: dea8e564e6c181948bff223fac4fe2b6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1530, y: 1608}
+  - name: 1-cabinet_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5066
+      y: 3323
+      width: 714
+      height: 966
+    spriteID: d4bee385b2f6a9d4ab841bb6c4e315fb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3277, y: 1604}
+  - name: 1-heavy item
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5788
+      y: 4666
+      width: 224
+      height: 242
+    spriteID: 33152f0176fed71418a0102fe96b5d0f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2555, y: 2831}
+  - name: 1-column
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5788
+      y: 3323
+      width: 355
+      height: 1335
+    spriteID: 232997f0832c6e848857676cceb6819a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1960, y: 1607}
+  - name: 1-column_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6151
+      y: 3323
+      width: 355
+      height: 1335
+    spriteID: 752071f98678bae4685c90cc423f504c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6094, y: 1607}
+  - name: 1-ceiling+floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 4267
+      height: 1660
+    spriteID: b6eeb27c40ed82648a978d170f8528c7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: -1578}
+  - name: 1-Pantry room door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6514
+      y: 3323
+      width: 563
+      height: 835
+    spriteID: dbf32a66edc336d4db991033ad11f438
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5777, y: 1603}
+  - name: Pantry Room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5066
+      y: 4297
+      width: 623
+      height: 170
+    spriteID: 95384490b0fc58245891c94c2e06c972
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3427, y: 1540}
+  - name: 2-graffiti
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4279
+      y: 4959
+      width: 3741
+      height: 941
+    spriteID: 6289794e9246f0d47bf00a5c52297d54
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4151, y: 4757}
+  - name: 2-ceiling+floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3323
+      width: 4267
+      height: 1628
+    spriteID: 9843e46d8d888064697235dd698810fe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 3323}
+  - name: 'Scary hallway '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5066
+      y: 4475
+      width: 623
+      height: 170
+    spriteID: 27d82f9147ccbe042a6b930b0d1c9d1d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3193, y: 3347}
+  - name: 2-bg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4959
+      width: 4267
+      height: 1601
+    spriteID: 7490a088494bd93429f2c05a7419f60e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4959}
+  - name: 1-bg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1672
+      width: 4267
+      height: 1643
+    spriteID: 63d11b58fc9e1a24d9f4776a53e576c3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 73}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 4267, y: 3242}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Pantry Room
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+  - name: 1-cabinet
+    spriteName: 1-cabinet
+    isGroup: 0
+    parentIndex: 0
+    spriteID: dea8e564e6c181948bff223fac4fe2b6
+    layerID: 801365608
+    mosaicPosition: {x: 4279, y: 3323}
+  - name: 1-cabinet
+    spriteName: 1-cabinet_1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d4bee385b2f6a9d4ab841bb6c4e315fb
+    layerID: 648410144
+    mosaicPosition: {x: 5066, y: 3323}
+  - name: 1-heavy item
+    spriteName: 1-heavy item
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 33152f0176fed71418a0102fe96b5d0f
+    layerID: 1287931218
+    mosaicPosition: {x: 5788, y: 4666}
+  - name: 1-column
+    spriteName: 1-column
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 232997f0832c6e848857676cceb6819a
+    layerID: -1077129854
+    mosaicPosition: {x: 5788, y: 3323}
+  - name: 1-column
+    spriteName: 1-column_1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 752071f98678bae4685c90cc423f504c
+    layerID: -331923542
+    mosaicPosition: {x: 6151, y: 3323}
+  - name: 1-ceiling+floor
+    spriteName: 1-ceiling+floor
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b6eeb27c40ed82648a978d170f8528c7
+    layerID: -363171538
+    mosaicPosition: {x: 4, y: 4}
+  - name: 1-Pantry room door
+    spriteName: 1-Pantry room door
+    isGroup: 0
+    parentIndex: 0
+    spriteID: dbf32a66edc336d4db991033ad11f438
+    layerID: -172738651
+    mosaicPosition: {x: 6514, y: 3323}
+  - name: Pantry Room
+    spriteName: Pantry Room
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 95384490b0fc58245891c94c2e06c972
+    layerID: 1879569423
+    mosaicPosition: {x: 5066, y: 4297}
+  - name: 'Scary hallway '
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 754027996
+    mosaicPosition: {x: 0, y: 0}
+  - name: 2-graffiti
+    spriteName: 2-graffiti
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 6289794e9246f0d47bf00a5c52297d54
+    layerID: -619386033
+    mosaicPosition: {x: 4279, y: 4959}
+  - name: 2-ceiling+floor
+    spriteName: 2-ceiling+floor
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 9843e46d8d888064697235dd698810fe
+    layerID: 1648479627
+    mosaicPosition: {x: 4, y: 3323}
+  - name: 'Scary hallway '
+    spriteName: 'Scary hallway '
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 27d82f9147ccbe042a6b930b0d1c9d1d
+    layerID: -33256728
+    mosaicPosition: {x: 5066, y: 4475}
+  - name: 2-bg
+    spriteName: 2-bg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7490a088494bd93429f2c05a7419f60e
+    layerID: -475346592
+    mosaicPosition: {x: 4, y: 4959}
+  - name: 1-bg
+    spriteName: 1-bg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 63d11b58fc9e1a24d9f4776a53e576c3
+    layerID: -475346495
+    mosaicPosition: {x: 4, y: 1672}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Scene-05 Texture
+  prefabAssetName: Scene-05 Prefab
+  spriteLibAssetName: Scene-05 Sprite Lib
+  secondarySpriteTextures: []
