@@ -18,7 +18,7 @@ public class playerMovement : MonoBehaviour
     bool jump = false;
     bool crouch = false;
 
-    string _horizontal, _vertical, _interact, _jump;
+    string _horizontal, _vertical, _interact, _jump, _crouch;
 
     private void Start()
     {
@@ -31,6 +31,7 @@ public class playerMovement : MonoBehaviour
                 _vertical = "Vertical";
                 _jump = "Jump";
                 _interact = "Interact";
+                _crouch = "Crouch";
                 break;
 
             case Character.Lily:
@@ -38,6 +39,7 @@ public class playerMovement : MonoBehaviour
                 _vertical = "Vertical2";
                 _jump = "Jump2";
                 _interact = "Interact2";
+                _crouch = "Crouch2";
                 break;
         }
         
@@ -50,18 +52,20 @@ public class playerMovement : MonoBehaviour
             
             horizontalMove = Input.GetAxisRaw(_horizontal) * _moveSpeed;
             anim.SetFloat("moveSpeed", Mathf.Abs(horizontalMove));
+            //if (Input.GetButtonDown(_crouch))
             if (Input.GetAxisRaw(_vertical) < 0f)
             {
-                anim.SetBool("isCrouch", true);
+                //anim.SetBool("isCrouch", true);
                 crouch = true;
                 //_moveSpeed = moveSpeed / 2;
             }
-            else
+            else 
             {
-                anim.SetBool("isCrouch", false);
+                //anim.SetBool("isCrouch", false);
                 crouch = false;
                 //_moveSpeed = moveSpeed;
             }
+            Debug.Log(gameObject.name + ": " + Input.GetAxisRaw(_vertical));
 
             if (Input.GetButtonDown(_jump) && Input.GetAxisRaw(_vertical) >= 0f)
             {
@@ -84,5 +88,10 @@ public class playerMovement : MonoBehaviour
     public void onLanding()
     {
         anim.SetBool("isJump", false);
+    }
+
+    public void onCrouching(bool isCrouching)
+    {
+        anim.SetBool("isCrouch", isCrouching);
     }
 }

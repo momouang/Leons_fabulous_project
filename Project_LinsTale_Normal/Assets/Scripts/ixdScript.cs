@@ -8,7 +8,8 @@ public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnabl
 public class ixdScript : MonoBehaviour
 {
     GameObject player;
-    
+    private Renderer _renderer;
+    private Material _material;
     
     [Header("Select Mode")]
     public ixdState interactionMode;
@@ -19,6 +20,12 @@ public class ixdScript : MonoBehaviour
 
     [SerializeField]
     bool CanEnableObjects = true;
+
+    [SerializeField]
+    bool disableAfterUnlock = true;
+
+    [Header("Extra Renderers")]
+    public Renderer[] extraRenderers;
 
     [Header("Teleporter info")]
     public Vector3 tpPosition;
@@ -38,17 +45,66 @@ public class ixdScript : MonoBehaviour
     [Header("Events")]
     public UnityEvent InteractionEvents;
 
+    private void Start()
+    {
+        if (GetComponent<Renderer>())
+        {
+            _renderer = GetComponent<Renderer>();
+            _renderer.material.SetFloat("Vector1_9378A4B7", 0f);
+        }
+
+        if (extraRenderers.Length != 0)
+        {
+            for (int i = 0; i < extraRenderers.Length; i++)
+            {
+                Renderer _exRenderer = extraRenderers[i];
+                _exRenderer.material.SetFloat("Vector1_9378A4B7", 0f);
+            }
+        }
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //Debug.Log(collision.gameObject.name + "Entered" + gameObject.name);
+        if (collision.tag == "Player" && GetComponent<Renderer>())
+            _renderer.material.SetFloat("Vector1_9378A4B7", 0.99f);
+
+        if (extraRenderers.Length != 0)
+        {
+            for (int i = 0; i < extraRenderers.Length; i++)
+            {
+                Renderer _exRenderer = extraRenderers[i];
+                _exRenderer.material.SetFloat("Vector1_9378A4B7", 0.99f);
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player" && GetComponent<Renderer>())
+            _renderer.material.SetFloat("Vector1_9378A4B7", 0f);
+
+        if (extraRenderers.Length != 0)
+        {
+            for (int i = 0; i < extraRenderers.Length; i++)
+            {
+                Renderer _exRenderer = extraRenderers[i];
+                _exRenderer.material.SetFloat("Vector1_9378A4B7", 0f);
+            }
+        }
+    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
         //Debug.Log(collision.name);
         if(collision.tag == "Player")
-        if (collision.gameObject.GetComponent<playerState>().isInteract)
-        {
-            player = collision.gameObject;
-            Interact();
-            collision.gameObject.GetComponent<playerState>().setIxdFalse();
-        }
+            if (collision.gameObject.GetComponent<playerState>().isInteract)
+            {
+                player = collision.gameObject;
+                Interact();
+                collision.gameObject.GetComponent<playerState>().setIxdFalse();
+            }
     }
 
     public void Interact()
@@ -86,7 +142,7 @@ public class ixdScript : MonoBehaviour
                 for (int i = 0; i < requiredKeys.Length; i++)
                     player.GetComponent<playerState>().removeItem(requiredKeys[i]);
                 enAndDis();
-                gameObject.SetActive(false);
+                if (disableAfterUnlock) gameObject.SetActive(false);
                 break;
 
             case ixdState.Interactable:
