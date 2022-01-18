@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 1d0c57418bedc4047b0e2244b5b55cef
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Cremation ovens
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7360
+      y: 629
+      width: 671
+      height: 170
+    spriteID: 15595bb39a9a4a149afa27ad3690e7bd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3072, y: -564}
+  - name: Torture Room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7360
+      y: 807
+      width: 623
+      height: 170
+    spriteID: a35a3884e951a7c4ca2ee473a32b90a0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5281, y: -386}
+  - name: Graffiti
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6284
+      y: 4
+      width: 1856
+      height: 617
+    spriteID: 89789c6449b9d5e43a7b0b8b6ece72b6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6082, y: -286}
+  - name: Oven(Entance)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 729
+      y: 4055
+      width: 357
+      height: 1020
+    spriteID: 916e16178f5425a4bac277b41ed18d00
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -4800, y: 3867}
+  - name: Oven door(Entance)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3280
+      width: 4980
+      height: 767
+    spriteID: 03e1c795bc3f1da4e90538912accefad
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -694, y: 3119}
+  - name: ceiling+floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 6272
+      height: 1630
+    spriteID: fc76b3a180fbc1c409e71de42151b673
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Wall Right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5083
+      width: 227
+      height: 1311
+    spriteID: cc642c13d30ddd842b9b3086102eedbe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -5876, y: 4939}
+  - name: Oven2 door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7345
+      y: 2670
+      width: 339
+      height: 386
+    spriteID: 31cc7e9a65b0b444292bec1314a5f5eb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2659, y: 2160}
+  - name: Oven2 (Can hide)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4055
+      width: 717
+      height: 1020
+    spriteID: ab03553e8ed9c214195acbe33613b4d0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -4492, y: 3867}
+  - name: Oven1 door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7692
+      y: 2670
+      width: 339
+      height: 386
+    spriteID: 5addd5e3046b03a488759ff95e1a53e9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3927, y: 2160}
+  - name: 'Oven1 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7345
+      y: 1642
+      width: 718
+      height: 1020
+    spriteID: 68446d87709d64946937b84ac3e98890
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3770, y: 1454}
+  - name: Torture tool
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6284
+      y: 629
+      width: 1068
+      height: 671
+    spriteID: f3e1212d346116e4594f3dfcc15340b5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4305, y: 452}
+  - name: Torture Platform
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6284
+      y: 1642
+      width: 1053
+      height: 1060
+    spriteID: 970a8d45893d7b04599c29c1a44252e8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5424, y: 1488}
+  - name: "<\u77E9\u5F62>"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1642
+      width: 6272
+      height: 1630
+    spriteID: a4f3fcd57a207b449a45b421fc130770
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1642}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 6272, y: 1630}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Cremation ovens
+    spriteName: Cremation ovens
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 15595bb39a9a4a149afa27ad3690e7bd
+    layerID: 0
+    mosaicPosition: {x: 7360, y: 629}
+  - name: Torture Room
+    spriteName: Torture Room
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a35a3884e951a7c4ca2ee473a32b90a0
+    layerID: 1759492788
+    mosaicPosition: {x: 7360, y: 807}
+  - name: Graffiti
+    spriteName: Graffiti
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 89789c6449b9d5e43a7b0b8b6ece72b6
+    layerID: 277380646
+    mosaicPosition: {x: 6284, y: 4}
+  - name: Oven(Entance)
+    spriteName: Oven(Entance)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 916e16178f5425a4bac277b41ed18d00
+    layerID: 207477989
+    mosaicPosition: {x: 729, y: 4055}
+  - name: Oven door(Entance)
+    spriteName: Oven door(Entance)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 03e1c795bc3f1da4e90538912accefad
+    layerID: 957825679
+    mosaicPosition: {x: 4, y: 3280}
+  - name: ceiling+floor
+    spriteName: ceiling+floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fc76b3a180fbc1c409e71de42151b673
+    layerID: -1088841012
+    mosaicPosition: {x: 4, y: 4}
+  - name: Wall Right
+    spriteName: Wall Right
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cc642c13d30ddd842b9b3086102eedbe
+    layerID: 435754668
+    mosaicPosition: {x: 4, y: 5083}
+  - name: Oven2 door
+    spriteName: Oven2 door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 31cc7e9a65b0b444292bec1314a5f5eb
+    layerID: 1706468662
+    mosaicPosition: {x: 7345, y: 2670}
+  - name: Oven2 (Can hide)
+    spriteName: Oven2 (Can hide)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ab03553e8ed9c214195acbe33613b4d0
+    layerID: -335213887
+    mosaicPosition: {x: 4, y: 4055}
+  - name: Oven1 door
+    spriteName: Oven1 door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5addd5e3046b03a488759ff95e1a53e9
+    layerID: 1706467637
+    mosaicPosition: {x: 7692, y: 2670}
+  - name: 'Oven1 '
+    spriteName: 'Oven1 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 68446d87709d64946937b84ac3e98890
+    layerID: 87341647
+    mosaicPosition: {x: 7345, y: 1642}
+  - name: Torture tool
+    spriteName: Torture tool
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f3e1212d346116e4594f3dfcc15340b5
+    layerID: -969391501
+    mosaicPosition: {x: 6284, y: 629}
+  - name: Torture Platform
+    spriteName: Torture Platform
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 970a8d45893d7b04599c29c1a44252e8
+    layerID: 4788964
+    mosaicPosition: {x: 6284, y: 1642}
+  - name: "<\u77E9\u5F62>"
+    spriteName: "<\u77E9\u5F62>"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a4f3fcd57a207b449a45b421fc130770
+    layerID: -1729014699
+    mosaicPosition: {x: 4, y: 1642}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: 5-Torture Room _ Cremation Ovens Texture
+  prefabAssetName: 5-Torture Room _ Cremation Ovens Prefab
+  spriteLibAssetName: 5-Torture Room _ Cremation Ovens Sprite Lib
+  secondarySpriteTextures: []

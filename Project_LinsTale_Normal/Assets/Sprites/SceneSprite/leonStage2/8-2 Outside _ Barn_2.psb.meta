@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: 6735fb4639855d84e9e664d780daa35c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: rope+plat
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3401
+      width: 427
+      height: 2392
+    spriteID: 0a4c0334bc19b96488f6f96a615a9280
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -6663, y: 3082}
+  - name: iron cage iron cage Iron csge door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 439
+      y: 3994
+      width: 113
+      height: 2875
+    spriteID: ebea7539f693f2c4a82be8793c4f1833
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -7298, y: 3740}
+  - name: elevator
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 439
+      y: 3401
+      width: 1308
+      height: 585
+    spriteID: 03c9e6ee088736e43add80257c6d2775
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -6141, y: 875}
+  - name: Pitchfork
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5801
+      width: 356
+      height: 658
+    spriteID: 681785655bc21274f85837962e8f34f7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3563, y: 4080}
+  - name: Horse
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1647
+      width: 7860
+      height: 1602
+    spriteID: e298afd4a7102a04e99f2867cb86ade9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6}
+  - name: Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3257
+      width: 7996
+      height: 136
+    spriteID: fd4e7e664b03667478c3292a297e905f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1672}
+  - name: Barn
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7872
+      y: 1647
+      width: 315
+      height: 170
+    spriteID: 956d9d0e0b66bf144a3957709cc5f43e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4620, y: -1116}
+  - name: Bg2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 7996
+      height: 1635
+    spriteID: 708712756087f3d49bf3e6a636342204
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: -1604}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 7996, y: 3243}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: rope+plat
+    spriteName: rope+plat
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0a4c0334bc19b96488f6f96a615a9280
+    layerID: 0
+    mosaicPosition: {x: 4, y: 3401}
+  - name: iron cage iron cage Iron csge door
+    spriteName: iron cage iron cage Iron csge door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ebea7539f693f2c4a82be8793c4f1833
+    layerID: 1370376126
+    mosaicPosition: {x: 439, y: 3994}
+  - name: elevator
+    spriteName: elevator
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 03c9e6ee088736e43add80257c6d2775
+    layerID: 1177596584
+    mosaicPosition: {x: 439, y: 3401}
+  - name: Pitchfork
+    spriteName: Pitchfork
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 681785655bc21274f85837962e8f34f7
+    layerID: 1135841748
+    mosaicPosition: {x: 4, y: 5801}
+  - name: Horse
+    spriteName: Horse
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e298afd4a7102a04e99f2867cb86ade9
+    layerID: 82813303
+    mosaicPosition: {x: 4, y: 1647}
+  - name: Floor
+    spriteName: Floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fd4e7e664b03667478c3292a297e905f
+    layerID: 1776489660
+    mosaicPosition: {x: 4, y: 3257}
+  - name: Barn
+    spriteName: Barn
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 956d9d0e0b66bf144a3957709cc5f43e
+    layerID: -756893881
+    mosaicPosition: {x: 7872, y: 1647}
+  - name: Bg2
+    spriteName: Bg2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 708712756087f3d49bf3e6a636342204
+    layerID: 1858829951
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: 8-2 Outside _ Barn_2 Texture
+  prefabAssetName: 8-2 Outside _ Barn_2 Prefab
+  spriteLibAssetName: 8-2 Outside _ Barn_2 Sprite Lib
+  secondarySpriteTextures: []

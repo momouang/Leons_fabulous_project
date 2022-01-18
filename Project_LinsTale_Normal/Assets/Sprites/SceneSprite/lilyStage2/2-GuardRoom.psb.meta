@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: becb888b7cecb724eabc5a8262952d1f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: guardroom FrontDoor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5182
+      y: 4
+      width: 571
+      height: 830
+    spriteID: 55f2a4fb193f7e84cb51d9ddd7b804ea
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4753, y: -181}
+  - name: guardroom BackDoor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5761
+      y: 4
+      width: 571
+      height: 830
+    spriteID: cf95818be6194af4e997e285c5bfa6b4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1603, y: -181}
+  - name: Guard Room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6768
+      y: 305
+      width: 623
+      height: 170
+    spriteID: 93d412cdc83edbf46aee1fe571494f84
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4395, y: -823}
+  - name: Box1(can hide)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5182
+      y: 1204
+      width: 471
+      height: 249
+    spriteID: fe71b0a4e9d5ed545bfc8044b6d7662b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4074, y: 1020}
+  - name: Box2(can hide)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7533
+      y: 4
+      width: 474
+      height: 267
+    spriteID: cbe59b0135be73d47ad461e8d08c0bb7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4165, y: -180}
+  - name: jar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8015
+      y: 4
+      width: 116
+      height: 138
+    spriteID: fd656993700dd3c4391738778af14600
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4987, y: -349}
+  - name: Special Key
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8015
+      y: 150
+      width: 71
+      height: 85
+    spriteID: d86520af2b6c98b4a8b009714b93af66
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4965, y: -225}
+  - name: Boxes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5182
+      y: 842
+      width: 486
+      height: 354
+    spriteID: ed7d0bc29f74bce4b8d0d52138d881fc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2518, y: 657}
+  - name: wall Left
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6561
+      y: 4
+      width: 199
+      height: 1311
+    spriteID: ccaff179d9ffbde4f83fe3b7c2a67680
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6561, y: -154}
+  - name: wall Right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6340
+      y: 4
+      width: 213
+      height: 1312
+    spriteID: c5e0b3f7f8bd9394096a47458e01ae2f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1383, y: -139}
+  - name: ceiling+Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 5170
+      height: 1628
+    spriteID: cfd9ef551c9fe7f4b95f55e06c106dcd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Note
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8094
+      y: 150
+      width: 80
+      height: 73
+    spriteID: bdbfc1225ad2c0745be4a81a216623b0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5948, y: -321}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6768
+      y: 4
+      width: 757
+      height: 293
+    spriteID: b673948348ac62447a34e33bbb812e66
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5058, y: -176}
+  - name: "<\u77E9\u5F62>"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1640
+      width: 5170
+      height: 1628
+    spriteID: cb0d868b4265e9645bca697b33c89d69
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1640}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 5170, y: 1628}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: guardroom FrontDoor
+    spriteName: guardroom FrontDoor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 55f2a4fb193f7e84cb51d9ddd7b804ea
+    layerID: 0
+    mosaicPosition: {x: 5182, y: 4}
+  - name: guardroom BackDoor
+    spriteName: guardroom BackDoor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cf95818be6194af4e997e285c5bfa6b4
+    layerID: -720043369
+    mosaicPosition: {x: 5761, y: 4}
+  - name: Guard Room
+    spriteName: Guard Room
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 93d412cdc83edbf46aee1fe571494f84
+    layerID: -862410022
+    mosaicPosition: {x: 6768, y: 305}
+  - name: Box1(can hide)
+    spriteName: Box1(can hide)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fe71b0a4e9d5ed545bfc8044b6d7662b
+    layerID: 681203289
+    mosaicPosition: {x: 5182, y: 1204}
+  - name: Box2(can hide)
+    spriteName: Box2(can hide)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cbe59b0135be73d47ad461e8d08c0bb7
+    layerID: 683024266
+    mosaicPosition: {x: 7533, y: 4}
+  - name: jar
+    spriteName: jar
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fd656993700dd3c4391738778af14600
+    layerID: 696029745
+    mosaicPosition: {x: 8015, y: 4}
+  - name: Special Key
+    spriteName: Special Key
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d86520af2b6c98b4a8b009714b93af66
+    layerID: -214737058
+    mosaicPosition: {x: 8015, y: 150}
+  - name: Boxes
+    spriteName: Boxes
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ed7d0bc29f74bce4b8d0d52138d881fc
+    layerID: 1601832631
+    mosaicPosition: {x: 5182, y: 842}
+  - name: wall Left
+    spriteName: wall Left
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ccaff179d9ffbde4f83fe3b7c2a67680
+    layerID: -1225556039
+    mosaicPosition: {x: 6561, y: 4}
+  - name: wall Right
+    spriteName: wall Right
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c5e0b3f7f8bd9394096a47458e01ae2f
+    layerID: 400037772
+    mosaicPosition: {x: 6340, y: 4}
+  - name: ceiling+Floor
+    spriteName: ceiling+Floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cfd9ef551c9fe7f4b95f55e06c106dcd
+    layerID: -1088808212
+    mosaicPosition: {x: 4, y: 4}
+  - name: Note
+    spriteName: Note
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bdbfc1225ad2c0745be4a81a216623b0
+    layerID: 1414246154
+    mosaicPosition: {x: 8094, y: 150}
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b673948348ac62447a34e33bbb812e66
+    layerID: 593506430
+    mosaicPosition: {x: 6768, y: 4}
+  - name: "<\u77E9\u5F62>"
+    spriteName: "<\u77E9\u5F62>"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cb0d868b4265e9645bca697b33c89d69
+    layerID: -1729014699
+    mosaicPosition: {x: 4, y: 1640}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: 2-GuardRoom Texture
+  prefabAssetName: 2-GuardRoom Prefab
+  spriteLibAssetName: 2-GuardRoom Sprite Lib
+  secondarySpriteTextures: []

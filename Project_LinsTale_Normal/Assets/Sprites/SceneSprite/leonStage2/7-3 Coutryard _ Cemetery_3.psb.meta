@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 5dbf0e7236d059d4089396e50903d229
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Note
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4850
+      y: 1284
+      width: 73
+      height: 66
+    spriteID: 3b2ff299eeae124499717b1660c175c6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3302, y: 1141}
+  - name: Cemetery
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4353
+      y: 1284
+      width: 489
+      height: 169
+    spriteID: 329ba288b14679e489d59724e8c6ba18
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3338, y: -16}
+  - name: ColumnRight
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5515
+      y: 4
+      width: 843
+      height: 1550
+    spriteID: 602c3dcfe0957d849b9140f807792731
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1981, y: -104}
+  - name: ColumnLeft
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4931
+      y: 1284
+      width: 0
+      height: 0
+    spriteID: e42625f49803ec14abc2767aafb87974
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 554, y: -374}
+  - name: tomb
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1647
+      width: 2535
+      height: 407
+    spriteID: c454cbebf28dc3f4daa0258175107ea2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -159, y: 1523}
+  - name: Stone1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4939
+      y: 1284
+      width: 0
+      height: 0
+    spriteID: 676374d7811f5c1488c973acca968f73
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 562, y: -374}
+  - name: Stone2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4947
+      y: 1284
+      width: 0
+      height: 0
+    spriteID: c0826624c4b763144a35c898ad88e3ed
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 570, y: -374}
+  - name: Bg-trees
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4353
+      y: 4
+      width: 1154
+      height: 1272
+    spriteID: 244a058eaf2fdda46865334f625294da
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1756, y: -123}
+  - name: Bg-wall
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4955
+      y: 1284
+      width: 0
+      height: 0
+    spriteID: e1ae55c36311cf24599b19de3e46f31b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 578, y: -374}
+  - name: Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2547
+      y: 1647
+      width: 4377
+      height: 136
+    spriteID: 2780500edb1f47e459d075ed6dccdc6b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2547, y: 1647}
+  - name: Bg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4963
+      y: 1284
+      width: 0
+      height: 0
+    spriteID: 47da9d5b7ec098242bead2b329982882
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 586, y: -374}
+  - name: Bg_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 4341
+      height: 1635
+    spriteID: d313ed1f9cc453d4b878e0596584a7a4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: -19}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 4377, y: 1658}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Note
+    spriteName: Note
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3b2ff299eeae124499717b1660c175c6
+    layerID: 0
+    mosaicPosition: {x: 4850, y: 1284}
+  - name: Cemetery
+    spriteName: Cemetery
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 329ba288b14679e489d59724e8c6ba18
+    layerID: 1728777322
+    mosaicPosition: {x: 4353, y: 1284}
+  - name: ColumnRight
+    spriteName: ColumnRight
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 602c3dcfe0957d849b9140f807792731
+    layerID: -1613782538
+    mosaicPosition: {x: 5515, y: 4}
+  - name: ColumnLeft
+    spriteName: ColumnLeft
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e42625f49803ec14abc2767aafb87974
+    layerID: -2005812019
+    mosaicPosition: {x: 4931, y: 1284}
+  - name: tomb
+    spriteName: tomb
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c454cbebf28dc3f4daa0258175107ea2
+    layerID: -958407772
+    mosaicPosition: {x: 4, y: 1647}
+  - name: Stone1
+    spriteName: Stone1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 676374d7811f5c1488c973acca968f73
+    layerID: -1817340062
+    mosaicPosition: {x: 4939, y: 1284}
+  - name: Stone2
+    spriteName: Stone2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c0826624c4b763144a35c898ad88e3ed
+    layerID: 911543293
+    mosaicPosition: {x: 4947, y: 1284}
+  - name: Bg-trees
+    spriteName: Bg-trees
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 244a058eaf2fdda46865334f625294da
+    layerID: 907577853
+    mosaicPosition: {x: 4353, y: 4}
+  - name: Bg-wall
+    spriteName: Bg-wall
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e1ae55c36311cf24599b19de3e46f31b
+    layerID: -1915368060
+    mosaicPosition: {x: 4955, y: 1284}
+  - name: Floor
+    spriteName: Floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2780500edb1f47e459d075ed6dccdc6b
+    layerID: 1776489660
+    mosaicPosition: {x: 2547, y: 1647}
+  - name: Bg
+    spriteName: Bg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 47da9d5b7ec098242bead2b329982882
+    layerID: 1853145457
+    mosaicPosition: {x: 4963, y: 1284}
+  - name: Bg
+    spriteName: Bg_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d313ed1f9cc453d4b878e0596584a7a4
+    layerID: 452959671
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: 7-3 Coutryard _ Cemetery_3 Texture
+  prefabAssetName: 7-3 Coutryard _ Cemetery_3 Prefab
+  spriteLibAssetName: 7-3 Coutryard _ Cemetery_3 Sprite Lib
+  secondarySpriteTextures: []

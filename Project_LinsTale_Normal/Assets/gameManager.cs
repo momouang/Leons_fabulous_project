@@ -8,6 +8,11 @@ public class gameManager : MonoBehaviour
 
     [SerializeField]
     Animator panelAnimator;
+    [SerializeField]
+    Animator gameOverAnimator;
+
+    public Animator lilyAnim;
+
     int currentSceneIndex;
     public int nextSceneIndex = 0;
     public bool leonReady = false, lilyReady = false;
@@ -35,8 +40,12 @@ public class gameManager : MonoBehaviour
 
     IEnumerator gameOverLoadScene(int i)
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
+        gameOverAnimator.Play("CameraCap_fadeBlack");
+        yield return new WaitForSeconds(2);
         panelAnimator.Play("CameraCap_fadeBlack");
+        yield return new WaitForSeconds(2);
+        gameOverAnimator.Play("CameraCap_fadeOut");
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(i);
     }

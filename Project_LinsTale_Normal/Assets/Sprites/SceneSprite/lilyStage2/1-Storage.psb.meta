@@ -1,0 +1,901 @@
+fileFormatVersion: 2
+guid: 3673f95c3b7fb4a4c8cfd0eae3ff0d65
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Underground Storage
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 14088
+      y: 3282
+      width: 842
+      height: 170
+    spriteID: 8316aa55236df164c874f577b0325dc3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2721, y: 2103}
+  - name: Cabinets
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11723
+      y: 3282
+      width: 1710
+      height: 950
+    spriteID: ebb4b709a87989c4ea653db34b7fc0c2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 328, y: 3117}
+  - name: Clothes with blood
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16095
+      y: 3046
+      width: 175
+      height: 164
+    spriteID: 21787c0b3a227664996b277f34858637
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10414, y: 2775}
+  - name: guardroom FrontDoor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15216
+      y: 4
+      width: 571
+      height: 830
+    spriteID: 60cb1afb36b6dff4d822f53b2b251cf0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8828, y: -179}
+  - name: guardroom BackDoor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15795
+      y: 4
+      width: 571
+      height: 830
+    spriteID: 488434f60edbe104cb97da04490dcc47
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2203, y: -179}
+  - name: "BoxOpen \u62F7\u8C9D"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15865
+      y: 2771
+      width: 474
+      height: 267
+    spriteID: 3b3e295a1d9334d43b24d10ac342cf57
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10111, y: 2579}
+  - name: BoxOpen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 14088
+      y: 3460
+      width: 474
+      height: 267
+    spriteID: 8b6698c1a2264424caf1884bff071371
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4520, y: 3268}
+  - name: Box(can hide)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15951
+      y: 1643
+      width: 317
+      height: 468
+    spriteID: 313e8aec25071e746907b6cb65eceb82
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4933, y: 1451}
+  - name: SPECIAL BOX
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16010
+      y: 842
+      width: 217
+      height: 94
+    spriteID: 40a39f4357128e04aa9cdf55aa654c96
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3222, y: 514}
+  - name: jar(can move)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15865
+      y: 3046
+      width: 222
+      height: 209
+    spriteID: 7f150e334b44e7046b8aa08283f2b66f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4147, y: 2842}
+  - name: Iron cage door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4670
+      width: 115
+      height: 1314
+    spriteID: d8a3a9f765f2d9845ad0b02ddd066f2e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -14914, y: 4473}
+  - name: Hair pin
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16095
+      y: 3218
+      width: 106
+      height: 56
+    spriteID: 350cdb72c37205d41a2ac5dcd7b142a0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3254, y: 2881}
+  - name: "Boxes \u62F7\u8C9D 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15216
+      y: 1643
+      width: 727
+      height: 556
+    spriteID: 6228758f538a46248a8eb46acd663bf9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 11176, y: 1451}
+  - name: "Boxes \u62F7\u8C9D"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15216
+      y: 2207
+      width: 727
+      height: 556
+    spriteID: a9e45af462bf6ff46a5f2a08ddf62b92
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10436, y: 2015}
+  - name: Boxes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15216
+      y: 2771
+      width: 641
+      height: 468
+    spriteID: 515db9f536dbd2d41b5e1d8f4feb98c0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 14548, y: 2579}
+  - name: ceiling
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4341
+      width: 10845
+      height: 321
+    spriteID: fad44cf3bcf4dfe429266a023ef18dda
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -327, y: 3193}
+  - name: floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 15204
+      height: 1631
+    spriteID: e558ad7bb3d090a48b4a010966f53836
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: "Spider3 \u62F7\u8C9D"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15216
+      y: 842
+      width: 207
+      height: 790
+    spriteID: 8a11e8f976427294a9c6eb65be1f5a15
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 13046, y: 1}
+  - name: "Spider2 \u62F7\u8C9D"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15431
+      y: 842
+      width: 207
+      height: 769
+    spriteID: 47e85b2cb2c444f4681345a2968cb66e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 13799, y: -20}
+  - name: "Spider1 \u62F7\u8C9D"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 13441
+      y: 3282
+      width: 208
+      height: 1016
+    spriteID: e2479bf89fbecd948b76c9369e2465b4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 11531, y: 2823}
+  - name: Spider3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 13873
+      y: 3282
+      width: 207
+      height: 1016
+    spriteID: 9c6efdfbf3776c043b286a1a8a7abe23
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5402, y: 2823}
+  - name: Spider2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15795
+      y: 842
+      width: 207
+      height: 769
+    spriteID: 7b6cd99a7ec83284e8752b7994463e0d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 7862, y: -20}
+  - name: Spider1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 13657
+      y: 3282
+      width: 208
+      height: 1016
+    spriteID: 2fad69877ee9cb548bc411e3aaf83721
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5943, y: 2823}
+  - name: "Sundries \u62F7\u8C9D"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15951
+      y: 2207
+      width: 371
+      height: 238
+    spriteID: 4b5bb302a655ce5419a3ce917dd58b7a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8699, y: 2028}
+  - name: Sundries
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15951
+      y: 2453
+      width: 371
+      height: 238
+    spriteID: 48092b548553f8949a304cffcca0d76f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5321, y: 2274}
+  - name: Graffiti
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3282
+      width: 11711
+      height: 1051
+    spriteID: c6698f9c90aed194fa227ee5eceb223b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -201, y: 3060}
+  - name: "<\u77E9\u5F62>"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1643
+      width: 15204
+      height: 1631
+    spriteID: 6b0a466d6d8e97440abe6006c41b5d82
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1643}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 15204, y: 1631}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 16384
+  textureActualHeight: 16384
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Underground Storage
+    spriteName: Underground Storage
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8316aa55236df164c874f577b0325dc3
+    layerID: 0
+    mosaicPosition: {x: 14088, y: 3282}
+  - name: Cabinets
+    spriteName: Cabinets
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ebb4b709a87989c4ea653db34b7fc0c2
+    layerID: -1195657339
+    mosaicPosition: {x: 11723, y: 3282}
+  - name: Clothes with blood
+    spriteName: Clothes with blood
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 21787c0b3a227664996b277f34858637
+    layerID: 1856304098
+    mosaicPosition: {x: 16095, y: 3046}
+  - name: guardroom FrontDoor
+    spriteName: guardroom FrontDoor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 60cb1afb36b6dff4d822f53b2b251cf0
+    layerID: 1954619469
+    mosaicPosition: {x: 15216, y: 4}
+  - name: guardroom BackDoor
+    spriteName: guardroom BackDoor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 488434f60edbe104cb97da04490dcc47
+    layerID: -720043369
+    mosaicPosition: {x: 15795, y: 4}
+  - name: "BoxOpen \u62F7\u8C9D"
+    spriteName: "BoxOpen \u62F7\u8C9D"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3b3e295a1d9334d43b24d10ac342cf57
+    layerID: 1529595975
+    mosaicPosition: {x: 15865, y: 2771}
+  - name: BoxOpen
+    spriteName: BoxOpen
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8b6698c1a2264424caf1884bff071371
+    layerID: 426323489
+    mosaicPosition: {x: 14088, y: 3460}
+  - name: Box(can hide)
+    spriteName: Box(can hide)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 313e8aec25071e746907b6cb65eceb82
+    layerID: 1777307842
+    mosaicPosition: {x: 15951, y: 1643}
+  - name: SPECIAL BOX
+    spriteName: SPECIAL BOX
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 40a39f4357128e04aa9cdf55aa654c96
+    layerID: 152664676
+    mosaicPosition: {x: 16010, y: 842}
+  - name: jar(can move)
+    spriteName: jar(can move)
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7f150e334b44e7046b8aa08283f2b66f
+    layerID: -1704085019
+    mosaicPosition: {x: 15865, y: 3046}
+  - name: Iron cage door
+    spriteName: Iron cage door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d8a3a9f765f2d9845ad0b02ddd066f2e
+    layerID: -664619604
+    mosaicPosition: {x: 4, y: 4670}
+  - name: Hair pin
+    spriteName: Hair pin
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 350cdb72c37205d41a2ac5dcd7b142a0
+    layerID: 2074179957
+    mosaicPosition: {x: 16095, y: 3218}
+  - name: "Boxes \u62F7\u8C9D 2"
+    spriteName: "Boxes \u62F7\u8C9D 2"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6228758f538a46248a8eb46acd663bf9
+    layerID: -965127045
+    mosaicPosition: {x: 15216, y: 1643}
+  - name: "Boxes \u62F7\u8C9D"
+    spriteName: "Boxes \u62F7\u8C9D"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a9e45af462bf6ff46a5f2a08ddf62b92
+    layerID: 1258612341
+    mosaicPosition: {x: 15216, y: 2207}
+  - name: Boxes
+    spriteName: Boxes
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 515db9f536dbd2d41b5e1d8f4feb98c0
+    layerID: 1601832631
+    mosaicPosition: {x: 15216, y: 2771}
+  - name: ceiling
+    spriteName: ceiling
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fad44cf3bcf4dfe429266a023ef18dda
+    layerID: -2120835061
+    mosaicPosition: {x: 4, y: 4341}
+  - name: floor
+    spriteName: floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e558ad7bb3d090a48b4a010966f53836
+    layerID: 1776456860
+    mosaicPosition: {x: 4, y: 4}
+  - name: "Spider3 \u62F7\u8C9D"
+    spriteName: "Spider3 \u62F7\u8C9D"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8a11e8f976427294a9c6eb65be1f5a15
+    layerID: 807161204
+    mosaicPosition: {x: 15216, y: 842}
+  - name: "Spider2 \u62F7\u8C9D"
+    spriteName: "Spider2 \u62F7\u8C9D"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 47e85b2cb2c444f4681345a2968cb66e
+    layerID: 807161237
+    mosaicPosition: {x: 15431, y: 842}
+  - name: "Spider1 \u62F7\u8C9D"
+    spriteName: "Spider1 \u62F7\u8C9D"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e2479bf89fbecd948b76c9369e2465b4
+    layerID: 807161138
+    mosaicPosition: {x: 13441, y: 3282}
+  - name: Spider3
+    spriteName: Spider3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9c6efdfbf3776c043b286a1a8a7abe23
+    layerID: 839688600
+    mosaicPosition: {x: 13873, y: 3282}
+  - name: Spider2
+    spriteName: Spider2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7b6cd99a7ec83284e8752b7994463e0d
+    layerID: 839688599
+    mosaicPosition: {x: 15795, y: 842}
+  - name: Spider1
+    spriteName: Spider1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2fad69877ee9cb548bc411e3aaf83721
+    layerID: 839688602
+    mosaicPosition: {x: 13657, y: 3282}
+  - name: "Sundries \u62F7\u8C9D"
+    spriteName: "Sundries \u62F7\u8C9D"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4b5bb302a655ce5419a3ce917dd58b7a
+    layerID: -1488450129
+    mosaicPosition: {x: 15951, y: 2207}
+  - name: Sundries
+    spriteName: Sundries
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 48092b548553f8949a304cffcca0d76f
+    layerID: 1276750741
+    mosaicPosition: {x: 15951, y: 2453}
+  - name: Graffiti
+    spriteName: Graffiti
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c6698f9c90aed194fa227ee5eceb223b
+    layerID: 277380646
+    mosaicPosition: {x: 4, y: 3282}
+  - name: "<\u77E9\u5F62>"
+    spriteName: "<\u77E9\u5F62>"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6b0a466d6d8e97440abe6006c41b5d82
+    layerID: -1729014699
+    mosaicPosition: {x: 4, y: 1643}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: 1-Storage Texture
+  prefabAssetName: 1-Storage Prefab
+  spriteLibAssetName: 1-Storage Sprite Lib
+  secondarySpriteTextures: []

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Events;
 using UnityEngine;
 
-public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnable, InteractableWithTags}
+public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnable, InteractableWithTags, TeleportToTransform}
 [RequireComponent(typeof(BoxCollider2D))]
 public class ixdScript : MonoBehaviour
 {
@@ -27,7 +27,9 @@ public class ixdScript : MonoBehaviour
     public Renderer[] extraRenderers;
 
     [Header("Teleporter info")]
+    public Transform destination;
     public Vector3 tpPosition;
+    
     
     [Header("Item Info")]
     public string itemName;
@@ -60,6 +62,11 @@ public class ixdScript : MonoBehaviour
                 Renderer _exRenderer = extraRenderers[i];
                 _exRenderer.material.SetFloat("Vector1_9378A4B7", 0f);
             }
+        }
+
+        if (destination != null)
+        {
+            tpPosition = new Vector3(destination.position.x, destination.position.y - 3f, destination.position.z);
         }
     }
 

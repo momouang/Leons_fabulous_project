@@ -1,0 +1,640 @@
+fileFormatVersion: 2
+guid: cf35ed3c570ea6f4186fa41cacc515f6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Mortuary
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 14474
+      y: 1641
+      width: 496
+      height: 169
+    spriteID: 8532522a33fd8344696f5b990301d33a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6349, y: 899}
+  - name: Enter the Prison cell
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 13536
+      y: 1641
+      width: 930
+      height: 169
+    spriteID: 3c8b897a2f46ea64e9408670b45b7e5e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 11636, y: 901}
+  - name: Graffiti
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11479
+      y: 854
+      width: 4450
+      height: 619
+    spriteID: 9136c59a84daee44ab9cdd7adb8f02fc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 11115, y: 490}
+  - name: Sara coffin led
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 14978
+      y: 1641
+      width: 487
+      height: 147
+    spriteID: 876036bae7d7d8046b3da6645e4176d5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5810, y: 1209}
+  - name: Ghost hand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15937
+      y: 854
+      width: 256
+      height: 361
+    spriteID: 21ee608c245792d4086a00f6986ca83c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 9483, y: 443}
+  - name: prison cell door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11479
+      y: 1641
+      width: 822
+      height: 970
+    spriteID: e79baa1af51625442af4463d0f57be51
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10626, y: 1457}
+  - name: "\u6C34\u4E95l(Underground Part)"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11479
+      y: 2619
+      width: 631
+      height: 310
+    spriteID: eab682401dd0b404db06046a9a819f4c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 7548, y: 1308}
+  - name: ceilimg+floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 11467
+      height: 1629
+    spriteID: 3e04578373ddbd34391dd0921d0ba32a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: wall
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 12309
+      y: 1641
+      width: 227
+      height: 1312
+    spriteID: 76f35b0658e62c140980e8c0085517a0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 12309, y: 1476}
+  - name: coffin1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15765
+      y: 380
+      width: 488
+      height: 351
+    spriteID: 5b4c50d183933f44e8cf67f905962dfd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 9528, y: 195}
+  - name: coffin6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 12544
+      y: 1641
+      width: 488
+      height: 351
+    spriteID: 6331545184c118a4dbe154e03d46854e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2774, y: 1456}
+  - name: coffin5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15255
+      y: 4
+      width: 489
+      height: 368
+    spriteID: 49f2ad73070db344c8f3eb1637dbb015
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6643, y: -181}
+  - name: coffin4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15752
+      y: 4
+      width: 493
+      height: 363
+    spriteID: afb429cd7b8a211449e224d3793534fa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 7739, y: -181}
+  - name: coffin3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 15255
+      y: 380
+      width: 502
+      height: 353
+    spriteID: 3f3c1bc34f00abc40be34ed429380a99
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 7782, y: 195}
+  - name: coffin2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 13040
+      y: 1641
+      width: 488
+      height: 351
+    spriteID: 0bd6ed635a319694fb439d27b64ec9c4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6183, y: 1456}
+  - name: Sara's Coffin
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11479
+      y: 2937
+      width: 450
+      height: 267
+    spriteID: 3bd63ff87c4b1374b9a4ffb6a98552c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2258, y: 2749}
+  - name: Graffiti2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11479
+      y: 4
+      width: 3768
+      height: 842
+    spriteID: bdadd6f5105770d429868f9aeba09ac9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 7023, y: -277}
+  - name: "<\u77E9\u5F62>"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1641
+      width: 11467
+      height: 1629
+    spriteID: c27aa25f8858f744c9c88bfca4326492
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1641}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 11467, y: 1629}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 16384
+  textureActualHeight: 16384
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Mortuary
+    spriteName: Mortuary
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8532522a33fd8344696f5b990301d33a
+    layerID: 0
+    mosaicPosition: {x: 14474, y: 1641}
+  - name: Enter the Prison cell
+    spriteName: Enter the Prison cell
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3c8b897a2f46ea64e9408670b45b7e5e
+    layerID: 594827174
+    mosaicPosition: {x: 13536, y: 1641}
+  - name: Graffiti
+    spriteName: Graffiti
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9136c59a84daee44ab9cdd7adb8f02fc
+    layerID: 277380646
+    mosaicPosition: {x: 11479, y: 854}
+  - name: Sara coffin led
+    spriteName: Sara coffin led
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 876036bae7d7d8046b3da6645e4176d5
+    layerID: -1539050585
+    mosaicPosition: {x: 14978, y: 1641}
+  - name: Ghost hand
+    spriteName: Ghost hand
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 21ee608c245792d4086a00f6986ca83c
+    layerID: 722193926
+    mosaicPosition: {x: 15937, y: 854}
+  - name: prison cell door
+    spriteName: prison cell door
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e79baa1af51625442af4463d0f57be51
+    layerID: 1209857193
+    mosaicPosition: {x: 11479, y: 1641}
+  - name: "\u6C34\u4E95l(Underground Part)"
+    spriteName: "\u6C34\u4E95l(Underground Part)"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: eab682401dd0b404db06046a9a819f4c
+    layerID: -1247277546
+    mosaicPosition: {x: 11479, y: 2619}
+  - name: ceilimg+floor
+    spriteName: ceilimg+floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3e04578373ddbd34391dd0921d0ba32a
+    layerID: -2049762681
+    mosaicPosition: {x: 4, y: 4}
+  - name: wall
+    spriteName: wall
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 76f35b0658e62c140980e8c0085517a0
+    layerID: 405904966
+    mosaicPosition: {x: 12309, y: 1641}
+  - name: coffin1
+    spriteName: coffin1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5b4c50d183933f44e8cf67f905962dfd
+    layerID: -1899843358
+    mosaicPosition: {x: 15765, y: 380}
+  - name: coffin6
+    spriteName: coffin6
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6331545184c118a4dbe154e03d46854e
+    layerID: -1899843351
+    mosaicPosition: {x: 12544, y: 1641}
+  - name: coffin5
+    spriteName: coffin5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 49f2ad73070db344c8f3eb1637dbb015
+    layerID: -1899843354
+    mosaicPosition: {x: 15255, y: 4}
+  - name: coffin4
+    spriteName: coffin4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: afb429cd7b8a211449e224d3793534fa
+    layerID: -1899843353
+    mosaicPosition: {x: 15752, y: 4}
+  - name: coffin3
+    spriteName: coffin3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3f3c1bc34f00abc40be34ed429380a99
+    layerID: -1899843356
+    mosaicPosition: {x: 15255, y: 380}
+  - name: coffin2
+    spriteName: coffin2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0bd6ed635a319694fb439d27b64ec9c4
+    layerID: -1899843355
+    mosaicPosition: {x: 13040, y: 1641}
+  - name: Sara's Coffin
+    spriteName: Sara's Coffin
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3bd63ff87c4b1374b9a4ffb6a98552c1
+    layerID: -1515118202
+    mosaicPosition: {x: 11479, y: 2937}
+  - name: Graffiti2
+    spriteName: Graffiti2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bdadd6f5105770d429868f9aeba09ac9
+    layerID: -1603608552
+    mosaicPosition: {x: 11479, y: 4}
+  - name: "<\u77E9\u5F62>"
+    spriteName: "<\u77E9\u5F62>"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c27aa25f8858f744c9c88bfca4326492
+    layerID: -1729014699
+    mosaicPosition: {x: 4, y: 1641}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: 4-InPrisonCell _ Mortuary Texture
+  prefabAssetName: 4-InPrisonCell _ Mortuary Prefab
+  spriteLibAssetName: 4-InPrisonCell _ Mortuary Sprite Lib
+  secondarySpriteTextures: []
