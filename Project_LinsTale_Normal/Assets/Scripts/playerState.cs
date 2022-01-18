@@ -5,6 +5,8 @@ using UnityEngine;
 public class playerState : MonoBehaviour
 {
     public bool isInteract = false;
+    public bool isVisible = true;
+
     public Animator anim;
     public List<string> itemList = new List<string>();
 
@@ -41,6 +43,11 @@ public class playerState : MonoBehaviour
     {
         isInteract = false;
         //Debug.Log("IXD = " + isInteract);
+    }
+
+    public void setVisible(bool vis)
+    {
+        isVisible = vis;
     }
 
     public void setAnimOn()

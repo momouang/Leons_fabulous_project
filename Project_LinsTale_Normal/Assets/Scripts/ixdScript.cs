@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine.Events;
 using UnityEngine;
 
-public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnable}
+public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnable, InteractableWithTags}
 [RequireComponent(typeof(BoxCollider2D))]
 public class ixdScript : MonoBehaviour
 {
     GameObject player;
     private Renderer _renderer;
-    private Material _material;
     
     [Header("Select Mode")]
     public ixdState interactionMode;
@@ -33,7 +32,7 @@ public class ixdScript : MonoBehaviour
     [Header("Item Info")]
     public string itemName;
 
-    [Header("Lock Info")]
+    [Header("Lock/Tag Info")]
     public string[] requiredKeys;
 
     [Header("Enable Objects")]
@@ -44,6 +43,7 @@ public class ixdScript : MonoBehaviour
 
     [Header("Events")]
     public UnityEvent InteractionEvents;
+    public UnityEvent IxEventsOnExit;
 
     private void Start()
     {
@@ -66,45 +66,60 @@ public class ixdScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Debug.Log(collision.gameObject.name + "Entered" + gameObject.name);
-        if (collision.tag == "Player" && GetComponent<Renderer>())
-            _renderer.material.SetFloat("Vector1_9378A4B7", 0.99f);
-
-        if (extraRenderers.Length != 0)
+        if (interactionMode != ixdState.InteractableWithTags)
         {
-            for (int i = 0; i < extraRenderers.Length; i++)
+            if (collision.tag == "Player" && GetComponent<Renderer>())
+                _renderer.material.SetFloat("Vector1_9378A4B7", 0.99f);
+
+            if (extraRenderers.Length != 0)
             {
-                Renderer _exRenderer = extraRenderers[i];
-                _exRenderer.material.SetFloat("Vector1_9378A4B7", 0.99f);
+                for (int i = 0; i < extraRenderers.Length; i++)
+                {
+                    Renderer _exRenderer = extraRenderers[i];
+                    _exRenderer.material.SetFloat("Vector1_9378A4B7", 0.99f);
+                }
             }
         }
+        else
+            InteractionEvents.Invoke();
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && GetComponent<Renderer>())
-            _renderer.material.SetFloat("Vector1_9378A4B7", 0f);
-
-        if (extraRenderers.Length != 0)
+        if (interactionMode != ixdState.InteractableWithTags)
         {
-            for (int i = 0; i < extraRenderers.Length; i++)
+            if (collision.tag == "Player" && GetComponent<Renderer>())
+                _renderer.material.SetFloat("Vector1_9378A4B7", 0f);
+
+            if (extraRenderers.Length != 0)
             {
-                Renderer _exRenderer = extraRenderers[i];
-                _exRenderer.material.SetFloat("Vector1_9378A4B7", 0f);
+                for (int i = 0; i < extraRenderers.Length; i++)
+                {
+                    Renderer _exRenderer = extraRenderers[i];
+                    _exRenderer.material.SetFloat("Vector1_9378A4B7", 0f);
+                }
             }
         }
+        else
+            IxEventsOnExit.Invoke();
+
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        //Debug.Log(collision.name);
-        if(collision.tag == "Player")
-            if (collision.gameObject.GetComponent<playerState>().isInteract)
-            {
-                player = collision.gameObject;
-                Interact();
-                collision.gameObject.GetComponent<playerState>().setIxdFalse();
-            }
+        if (interactionMode != ixdState.InteractableWithTags)
+        {
+            //Debug.Log(collision.name);
+            if (collision.tag == "Player")
+                if (collision.gameObject.GetComponent<playerState>().isInteract)
+                {
+                    player = collision.gameObject;
+                    Interact();
+                    collision.gameObject.GetComponent<playerState>().setIxdFalse();
+                }
+        }
+        
     }
 
     public void Interact()
@@ -151,6 +166,10 @@ public class ixdScript : MonoBehaviour
 
             case ixdState.DisableAndEnable:
                 enAndDis();
+
+                break;
+
+            case ixdState.InteractableWithTags:
 
                 break;
         }

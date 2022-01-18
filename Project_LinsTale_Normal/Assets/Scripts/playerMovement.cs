@@ -55,17 +55,13 @@ public class playerMovement : MonoBehaviour
             //if (Input.GetButtonDown(_crouch))
             if (Input.GetAxisRaw(_vertical) < 0f)
             {
-                //anim.SetBool("isCrouch", true);
                 crouch = true;
-                //_moveSpeed = moveSpeed / 2;
             }
             else 
             {
-                //anim.SetBool("isCrouch", false);
                 crouch = false;
-                //_moveSpeed = moveSpeed;
             }
-            Debug.Log(gameObject.name + ": " + Input.GetAxisRaw(_vertical));
+            //Debug.Log(gameObject.name + ": " + Input.GetAxisRaw(_vertical));
 
             if (Input.GetButtonDown(_jump) && Input.GetAxisRaw(_vertical) >= 0f)
             {
@@ -93,5 +89,10 @@ public class playerMovement : MonoBehaviour
     public void onCrouching(bool isCrouching)
     {
         anim.SetBool("isCrouch", isCrouching);
+    }
+
+    public void setMovementZero()
+    {
+        horizontalMove = 0f;
     }
 }
