@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Events;
 using UnityEngine;
 
-public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnable, InteractableWithTags, TeleportToTransform}
+public enum ixdState { Teleport, Item, Interactable, LockedDoor, DisableAndEnable, InteractableWithTags, DetectionEvent, DetectionDisEnable}
 [RequireComponent(typeof(BoxCollider2D))]
 public class ixdScript : MonoBehaviour
 {

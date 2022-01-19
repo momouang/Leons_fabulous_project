@@ -11,15 +11,23 @@ public class gameManager : MonoBehaviour
     [SerializeField]
     Animator gameOverAnimator;
 
+    public GameObject cameraCanvas;
+
     public Animator lilyAnim;
 
     int currentSceneIndex;
     public int nextSceneIndex = 0;
+    public bool lilyCandleOnStart;
     public bool leonReady = false, lilyReady = false;
     public void Awake()
     {
+        cameraCanvas.SetActive(true);
         panelAnimator.Play("CameraCap_fadeOut");
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (lilyCandleOnStart)
+        {
+            lilyAnim.SetLayerWeight(1, 1f);
+        }
     }
 
     private void Update()
