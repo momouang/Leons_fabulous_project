@@ -10,6 +10,12 @@ public class hidingSpot : MonoBehaviour
             collision.GetComponent<playerState>().setVisible(false);
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+            collision.GetComponent<playerState>().setVisible(false);
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "Player")

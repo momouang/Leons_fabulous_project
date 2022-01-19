@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2773,8 +2773,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelAnimator: {fileID: 292052164}
   gameOverAnimator: {fileID: 1486801298}
+  cameraCanvas: {fileID: 2043003818}
   lilyAnim: {fileID: 0}
   nextSceneIndex: 1
+  lilyCandleOnStart: 0
   leonReady: 0
   lilyReady: 0
 --- !u!4 &372720683
@@ -16248,6 +16250,12 @@ Transform:
   m_Father: {fileID: 6740459534519377619}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2043003818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5955207037722707830, guid: 403a727cc1bb3af4da4bfa315b680fe8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5955207037626967693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2046814881
 GameObject:
   m_ObjectHideFlags: 0
