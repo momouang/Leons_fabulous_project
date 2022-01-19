@@ -836,7 +836,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
   - name: "Leon\u2019s Room"
@@ -885,7 +885,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: -428329749
     mosaicPosition: {x: 0, y: 0}
   - name: Hallway 1
@@ -920,7 +920,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: -438324505
     mosaicPosition: {x: 0, y: 0}
   - name: "Lily\u2019s Room"
@@ -983,7 +983,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 1555585130
     mosaicPosition: {x: 0, y: 0}
   - name: Wine cellar

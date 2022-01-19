@@ -1100,14 +1100,14 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
   - name: Leon Bedroom
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 967081040
     mosaicPosition: {x: 0, y: 0}
   - name: 1-column
@@ -1219,7 +1219,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: -1748115940
     mosaicPosition: {x: 0, y: 0}
   - name: 1-ceiling+floor
@@ -1289,7 +1289,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: -1406256215
     mosaicPosition: {x: 0, y: 0}
   - name: 1-ceiling+floor
@@ -1373,7 +1373,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: -1323021644
     mosaicPosition: {x: 0, y: 0}
   - name: 1-SpecialTile

@@ -9,6 +9,7 @@ public class eventVase : MonoBehaviour
     public playerMovement leonPM;
     public GameObject mom_Room;
     public GameObject mom_Timeline;
+    public AudioSource sfx;
 
     public void vaseFall()
     {
@@ -25,6 +26,7 @@ public class eventVase : MonoBehaviour
         leonPM.ctrlable = false;
         yield return new WaitForSeconds(2);
         leonPM.ctrlable = true;
+        sfx.Play();
         yield return new WaitForSeconds(3);
         mom_Room.SetActive(false);
         mom_Timeline.SetActive(true);

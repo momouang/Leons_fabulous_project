@@ -996,14 +996,14 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 70940219
     mosaicPosition: {x: 0, y: 0}
   - name: Lily's Bedroom
     spriteName: 
     isGroup: 1
     parentIndex: 4
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 190233444
     mosaicPosition: {x: 0, y: 0}
   - name: 2-chopstick
@@ -1087,7 +1087,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 4
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: -968484996
     mosaicPosition: {x: 0, y: 0}
   - name: 2-graffiti
@@ -1157,7 +1157,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 4
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 1555585130
     mosaicPosition: {x: 0, y: 0}
   - name: 2-wall
