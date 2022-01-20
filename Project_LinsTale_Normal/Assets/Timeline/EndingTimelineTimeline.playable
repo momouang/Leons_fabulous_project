@@ -229,7 +229,7 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 2
+    intParameter: 3
     messageOptions: 0
 --- !u!114 &-8538347148808665147
 MonoBehaviour:
@@ -14837,10 +14837,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 4.8
     m_ClipIn: 0
     m_Asset: {fileID: 8559955563196227242}
-    m_Duration: 19.891666666666
+    m_Duration: 15.091666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6890975630711888631}
     m_EaseInDuration: 0
