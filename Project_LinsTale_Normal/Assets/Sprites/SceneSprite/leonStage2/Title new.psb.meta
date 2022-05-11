@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: c86236241f56b9540a3a7e26beacb066
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Bush
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 13549
+      width: 3719
+      height: 161
+    spriteID: 9f1ead6ebc4990c479ec39e8eca7f9cc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1276, y: 11724}
+  - name: DungeonDoorLeft
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6653
+      y: 10171
+      width: 364
+      height: 73
+    spriteID: 9b6f9e88cce2e4f40af91c0005a55400
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3547, y: 8402}
+  - name: DungeonDoorRight
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7025
+      y: 10171
+      width: 364
+      height: 73
+    spriteID: 485021e42e264db4f8f9fe843e78115a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4293, y: 8402}
+  - name: Bg-Bamboos
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 11883
+      width: 4541
+      height: 1370
+    spriteID: bc7059ee57bab5c4e8f20b8247152910
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -803, y: 10058}
+  - name: "Floor \u7684\u8907\u88FD"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 13405
+      width: 4581
+      height: 136
+    spriteID: fc4ce1f5036b867438f9c457a0b651bc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -763, y: 11712}
+  - name: Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 13261
+      width: 5348
+      height: 136
+    spriteID: 7230d77d11c2cba4990b405f93c0a54a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 11567}
+  - name: Bamboo02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5360
+      y: 10171
+      width: 1285
+      height: 1207
+    spriteID: 72d96bf4a5af4184e9d63eb58360679e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4992, y: 8346}
+  - name: "\u5716\u5C64 1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 10171
+      width: 5348
+      height: 1704
+    spriteID: 9fae828df2c529f47a0b56fa411e7615
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 10171}
+  - name: light
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5360
+      y: 5360
+      width: 2711
+      height: 2710
+    spriteID: 27b34d8ebe3060d44bc4c3ddc3eafcdc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3325, y: 2910}
+  - name: "\u5716\u5C64 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5360
+      width: 5348
+      height: 4803
+    spriteID: dad0a36e012be0f44b0045ec237e8339
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4815}
+  - name: "\u5716\u5C64 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 5348
+      height: 5348
+    spriteID: a0a91072651b36f4b81e860d19b4c1ea
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 5348, y: 5348}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 16384
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Bush
+    spriteName: Bush
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9f1ead6ebc4990c479ec39e8eca7f9cc
+    layerID: 0
+    mosaicPosition: {x: 4, y: 13549}
+  - name: DungeonDoorLeft
+    spriteName: DungeonDoorLeft
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9b6f9e88cce2e4f40af91c0005a55400
+    layerID: 1838903493
+    mosaicPosition: {x: 6653, y: 10171}
+  - name: DungeonDoorRight
+    spriteName: DungeonDoorRight
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 485021e42e264db4f8f9fe843e78115a
+    layerID: 144952242
+    mosaicPosition: {x: 7025, y: 10171}
+  - name: Bg-Bamboos
+    spriteName: Bg-Bamboos
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bc7059ee57bab5c4e8f20b8247152910
+    layerID: -1021980229
+    mosaicPosition: {x: 4, y: 11883}
+  - name: "Floor \u7684\u8907\u88FD"
+    spriteName: "Floor \u7684\u8907\u88FD"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fc4ce1f5036b867438f9c457a0b651bc
+    layerID: -2090536532
+    mosaicPosition: {x: 4, y: 13405}
+  - name: Floor
+    spriteName: Floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7230d77d11c2cba4990b405f93c0a54a
+    layerID: 1776489660
+    mosaicPosition: {x: 4, y: 13261}
+  - name: Bamboo02
+    spriteName: Bamboo02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 72d96bf4a5af4184e9d63eb58360679e
+    layerID: -1770861252
+    mosaicPosition: {x: 5360, y: 10171}
+  - name: "\u5716\u5C64 1"
+    spriteName: "\u5716\u5C64 1"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9fae828df2c529f47a0b56fa411e7615
+    layerID: -2010611645
+    mosaicPosition: {x: 4, y: 10171}
+  - name: light
+    spriteName: light
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 27b34d8ebe3060d44bc4c3ddc3eafcdc
+    layerID: 109618542
+    mosaicPosition: {x: 5360, y: 5360}
+  - name: "\u5716\u5C64 3"
+    spriteName: "\u5716\u5C64 3"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dad0a36e012be0f44b0045ec237e8339
+    layerID: 1121556237
+    mosaicPosition: {x: 4, y: 5360}
+  - name: "\u5716\u5C64 2"
+    spriteName: "\u5716\u5C64 2"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a0a91072651b36f4b81e860d19b4c1ea
+    layerID: -1607327118
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Title new Texture
+  prefabAssetName: Title new Prefab
+  spriteLibAssetName: Title new Sprite Lib
+  secondarySpriteTextures: []
